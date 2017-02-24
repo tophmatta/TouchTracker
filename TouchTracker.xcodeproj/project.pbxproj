@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6D4D82811E4C0CDA00134438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4D82801E4C0CDA00134438 /* AppDelegate.swift */; };
-		6D4D82831E4C0CDA00134438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4D82821E4C0CDA00134438 /* ViewController.swift */; };
 		6D4D82861E4C0CDA00134438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D82841E4C0CDA00134438 /* Main.storyboard */; };
 		6D4D82881E4C0CDA00134438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D82871E4C0CDA00134438 /* Assets.xcassets */; };
 		6D4D828B1E4C0CDA00134438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D82891E4C0CDA00134438 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		6D4D827D1E4C0CDA00134438 /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4D82801E4C0CDA00134438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D4D82821E4C0CDA00134438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D4D82851E4C0CDA00134438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D4D82871E4C0CDA00134438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D4D828A1E4C0CDA00134438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				6D4D82801E4C0CDA00134438 /* AppDelegate.swift */,
-				6D4D82821E4C0CDA00134438 /* ViewController.swift */,
 				6D4D82921E4C0D2B00134438 /* Line.swift */,
 				6D4D82941E4C0DAD00134438 /* DrawView.swift */,
 				6D4D82841E4C0CDA00134438 /* Main.storyboard */,
@@ -144,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D4D82931E4C0D2B00134438 /* Line.swift in Sources */,
-				6D4D82831E4C0CDA00134438 /* ViewController.swift in Sources */,
 				6D4D82951E4C0DAD00134438 /* DrawView.swift in Sources */,
 				6D4D82811E4C0CDA00134438 /* AppDelegate.swift in Sources */,
 			);
@@ -308,6 +304,7 @@
 				6D4D82911E4C0CDA00134438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
